@@ -1,0 +1,72 @@
+@import 'variables';
+
+.h1L {
+    font-size: 2.5rem;
+}
+
+.h1M {
+    font-size: 1.75rem;
+}
+
+.pL {
+    font-size: 1.25rem;
+}
+
+.pM {
+    font-size: 1.1rem;
+}
+
+.flexboxRowResponsive {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexboxColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullHeight {
+    height: 100vh;
+}
+
+.autoHeight {
+    height: auto;
+}
+
+.borderRadius {
+    border-radius: 5px;
+}
+
+.highlight {
+    color: $secondaryColor;
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card {
+    position: relative;
+    text-align: left;
+    color: inherit;
+    margin: 1.5rem;
+    border: solid $fontColor 1px;
+}
+
+.main {
+    padding-bottom: 8rem;
+}
+
+.paddingTop {
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .flexboxRowResponsive {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,27 @@
+@import 'variables';
+
+.largeCard {
+    height: auto;
+    padding: 2rem;
+}
+
+.randomWords {
+    margin-top: 4rem;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .largeCard {
+        width: 500px;
+        padding-right: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .largeCard {
+        width: 550px;
+    }
+}

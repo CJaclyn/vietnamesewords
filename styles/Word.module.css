@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
+.largeCard {
+  height: auto;
+  padding: 2rem;
+}
+
+.randomWords {
+  margin-top: 4rem;
+}
+
+.randomWords h2 {
+  margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .largeCard {
+    width: 500px;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .largeCard {
+    width: 550px;
+  }
+}
+/*# sourceMappingURL=Word.module.css.map */

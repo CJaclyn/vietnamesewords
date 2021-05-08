@@ -1,0 +1,62 @@
+@import 'variables';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: $fontFamily;  
+  color: $fontColor;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+nav {
+    background-color: $primaryColor;
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a {
+        margin: 0 .5rem;
+
+        &:last-of-type {
+            margin-right: 0rem;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    padding: 5rem;
+    background:$secondaryColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    }
+}
