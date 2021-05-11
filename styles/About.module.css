@@ -1,0 +1,22 @@
+.aboutContainer {
+  margin: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutContainer {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .aboutContainer {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1368px) {
+  .aboutContainer {
+    width: 700px;
+  }
+}
+/*# sourceMappingURL=About.module.css.map */

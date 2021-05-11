@@ -66,8 +66,8 @@ export const words = [
         english: 'film crew'
     },
     {
-        id: 'k-ko-hk-hong-hok',
-        word: 'k, ko, hk, hong, hok',
+        id: 'k-ko-hk-hong-hok-khum',
+        word: 'k, ko, hk, hong, hok, khg, khum',
         meaning: 'không',
         english: 'no, not, zero'
     },
@@ -92,8 +92,8 @@ export const words = [
     {
         id: 'huhu',
         word: 'huhu',
-        meaning: 'khóc',
-        english: 'boo hoo (crying)'
+        meaning: 'từ tượng thanh mô phỏng tiếng khóc',
+        english: 'onomatopoeia of crying (boo hoo)'
     },
     {
         id: 'mn-mng',
@@ -138,8 +138,8 @@ export const words = [
         english: 'for example'
     },
     {
-        id: 'bjt',
-        word: 'bjt',
+        id: 'bjt-bt',
+        word: 'bjt, bt',
         meaning: 'biết',
         english: 'to know'
     },
@@ -176,8 +176,8 @@ export const words = [
     {
         id: 'haiz',
         word: 'haiz, haizz',
-        meaning: 'thở dài',
-        english: 'sigh'
+        meaning: 'từ tượng thanh mô phỏng tiếng thở dài',
+        english: 'onomatopoeia of sighing'
     },
     {
         id: 'ak',
@@ -195,19 +195,26 @@ export const words = [
         id: 'vk',
         word: 'vk',
         meaning: 'vợ',
-        english: 'wife, gf'
+        english: 'wife (used by young people to refer to their gf)'
     },
     {
         id: 'ck',
         word: 'ck',
         meaning: 'chồng',
-        english: 'husband, bf'
+        english: 'husband (used by young people to refer to their bf)'
     },
     {
         id: 'ns',
         word: 'ns',
         meaning: 'nói',
         english: 'to speak, to say'
+    },
+    {
+        id: 'nong-bong',
+        word: 'nóng bỏng',
+        meaning: 'hot, khiêu gợi',
+        english: 'hot, sexy',
+        wordType: 'slang' 
     },
     {
         id: 'nhiu',
@@ -219,6 +226,18 @@ export const words = [
         id: 'm',
         word: 'm',
         meaning: 'mày',
-        english: 'you (only to friends)'
+        english: 'you (only to close friends around your age)'
+    },
+    {
+        id: 'hic',
+        word: 'hic',
+        meaning: 'từ tượng thanh mô phỏng tiếng khóc/khóc nức nở',
+        english: 'onomatopoeia of crying/sobbing'
+    },
+    {
+        id: 'mlem-mlem',
+        word: 'mlem mlem',
+        meaning: 'từ tượng thanh mô phỏng tiếng chó, mèo đang liếm',
+        english: 'onomatopoeia of a dog, cat licking (used when you think something or someone is tasty or attractive)'
     },
 ]

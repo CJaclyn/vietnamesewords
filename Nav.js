@@ -11,10 +11,10 @@ export default function Nav() {
         <Link href="/">
             <a>Home</a>
         </Link>
-        <Link href={``}>
+        <Link href="/about">
             <a>About</a>
         </Link>
-        <Link href={``}>
+        <Link href="/submit-word">
             <a>Submit</a>
         </Link>
         </div>

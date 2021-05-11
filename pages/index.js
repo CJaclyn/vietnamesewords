@@ -6,8 +6,9 @@ import { words } from '../wordsData'
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/utils.module.css'
 import React, { useState } from 'react';
+import Scroll from '../components/ScrollToTop'
 
-export default function Home() {
+export default function Home () {
   const [input, setInput] = useState('')
   let inputs = input.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "").toString().toLowerCase()
   let result = true;
@@ -37,9 +38,9 @@ export default function Home() {
       <main className={`${ styles.main } ${ utilStyles.main }`}>
         <header className={ styles.header }>
         <h1 className={`${ styles.title }  ${ utilStyles.h1L }`}>
-        <ruby>詞語越南<rt>Từ Ngữ Việt Nam</rt></ruby><br></br>Vietnamese Words 
+          <ruby>詞語越南<rt>Từ Ngữ Việt Nam</rt></ruby><br></br>Vietnamese Words 
         </h1>
-
+        
         <p className={ styles.description }>
           Vietnamese abbreviations / slangs / social media &amp; messaging language 
         </p>
@@ -61,7 +62,7 @@ export default function Home() {
             <a className={`${ utilStyles.card } ${ styles.smallCard } ${ utilStyles.borderRadius }`}>
               <h2>{ word.word }</h2>
               <p>{ word.word } is { word.meaning }</p>
-              <p className={ styles.eng }>
+              <p className={`${ utilStyles.overflow } ${styles.eng}`}>
                 Eng: { word.english }
               </p>
             </a>

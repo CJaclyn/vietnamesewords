@@ -101,6 +101,7 @@
   padding: 1.5rem;
   -webkit-transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.5s;
   transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.5s;
+  position: relative;
 }
 
 .smallCard h2 {
@@ -130,17 +131,15 @@
   padding-right: 1.5rem;
 }
 
-.eng {
-  position: absolute;
-  bottom: 2rem;
-}
-
-.smallCard:hover,
-.smallCard:focus,
-.smallCard:active {
+.smallCard:hover {
   -webkit-box-shadow: rgba(255, 215, 193, 0.5) 0px 12px 28px 0px, rgba(255, 215, 193, 0.5) 0px 2px 4px 0px;
           box-shadow: rgba(255, 215, 193, 0.5) 0px 12px 28px 0px, rgba(255, 215, 193, 0.5) 0px 2px 4px 0px;
   scale: 1.025;
+}
+
+.eng {
+  position: absolute;
+  bottom: 2rem;
 }
 
 @media (max-width: 600px) {

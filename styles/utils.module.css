@@ -53,9 +53,8 @@
   border-radius: 5px;
 }
 
-.highlight {
+.color {
   color: #ffc3a3;
-  font-weight: 600;
 }
 
 .bold {
@@ -76,6 +75,14 @@
 
 .paddingTop {
   padding-top: 2rem;
+}
+
+.overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+  padding-right: 1.5rem;
 }
 
 @media only screen and (max-width: 1024px) {

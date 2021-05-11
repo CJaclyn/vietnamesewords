@@ -6,7 +6,7 @@ import styles from '../../styles/Word.module.css'
 import utilStyles from '../../styles/utils.module.css'
 import RandomWords from '../../components/RandomWords'
 
-export default function Word({ word }) {
+export default function Word ({ word }) {
     return (
       <>
       <Head>
@@ -17,14 +17,14 @@ export default function Word({ word }) {
         <article className={`${ utilStyles.card } ${ utilStyles.borderRadius } ${ styles.largeCard }`}>
           <h1 className={ utilStyles.h1M }> 
             What is 
-            <span className={ utilStyles.highlight }> { word.word } </span>
+            <span className={ utilStyles.color }> { word.word } </span>
             in Vietnamese?
           </h1>
           <p className={ utilStyles.pL }>
             <span className={ utilStyles.bold }>{ word.word }</span> is 
             <span className={ utilStyles.bold }> { word.meaning }</span> in Vietnamese
           </p>
-          <p className={`${ utilStyles.pL } ${ utilStyles.eng }`}>
+          <p className={ utilStyles.pL}>
             Meaning in English: <br></br>{ word.english }
           </p>
           <div dangerouslySetInnerHTML={{ __html: word.contentHtml }} />
