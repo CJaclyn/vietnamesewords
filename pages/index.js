@@ -6,7 +6,6 @@ import { words } from '../wordsData'
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/utils.module.css'
 import React, { useState } from 'react';
-import Scroll from '../components/ScrollToTop'
 
 export default function Home () {
   const [input, setInput] = useState('')

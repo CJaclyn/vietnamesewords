@@ -24,7 +24,7 @@ export default function Word ({ word }) {
             <span className={ utilStyles.bold }>{ word.word }</span> is 
             <span className={ utilStyles.bold }> { word.meaning }</span> in Vietnamese
           </p>
-          <p className={ utilStyles.pL}>
+          <p className={`${ utilStyles.pL } ${ styles.eng }`}>
             Meaning in English: <br></br>{ word.english }
           </p>
           <div dangerouslySetInnerHTML={{ __html: word.contentHtml }} />
