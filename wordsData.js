@@ -237,7 +237,13 @@ export const words = [
     {
         id: 'mlem-mlem',
         word: 'mlem mlem',
-        meaning: 'từ tượng thanh mô phỏng tiếng chó, mèo đang liếm',
+        meaning: 'từ tượng thanh mô phỏng tiếng chó, mèo đang liếm (dùng để chỉ thèm một món ăn hay người đẹp)',
         english: 'onomatopoeia of a dog, cat licking (used when you think something or someone is tasty or attractive)'
     },
+    {
+        id: 'vjp',
+        word: 'vjp',
+        meaning: 'để thể hiện sự ngạc nhiên',
+        english: 'vip (used when you think something is surprising)'
+    }
 ]

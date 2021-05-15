@@ -26,8 +26,7 @@ export default function About() {
                 </p>
                 <p>
                     This website is for you! It will save you the time guessing and 
-                    searching in Vietnamese what all these abbreivations and shortened 
-                    words mean. 
+                    searching what all these words and abbreviations mean.
                 </p>
                 <h3>Disclaimer</h3>
                 <p>
