@@ -5,6 +5,18 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
+  }
+
+  .scrollupButton {
+    position: fixed;
+    background: $primaryColor;
+    border: none;
+    width: 115px;
+    padding: .75rem 1rem;
+    bottom: 5rem;
+    right: 3rem;
+    cursor: pointer;
   }
   
   .header {
@@ -16,10 +28,9 @@
     padding: 2rem 1rem 4rem 1rem;
 
     p {
-        background-color: $secondaryColor;
-        color: white;
         padding: .25rem 1rem;
         border-radius: 5px;
+        margin-top: 1rem;
     }
 
     rt {
@@ -41,11 +52,6 @@
   }
   
   .input {
-    border: none;
-    width: 250px;
-    height: 40px;
-    padding: 0 1rem;
-    font-size: 1.1rem;
     margin-top: 4rem;
   }
   
@@ -94,7 +100,7 @@
 
     &:hover {
       box-shadow: rgba($primaryColor, 0.5) 0px 12px 28px 0px, rgba($primaryColor, 0.5) 0px 2px 4px 0px;
-      scale: 1.025;
+      transform: scale(1.025);
     }
   }
 

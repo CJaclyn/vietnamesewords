@@ -9,6 +9,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
+}
+
+.scrollupButton {
+  position: fixed;
+  background: #ffd7c1;
+  border: none;
+  width: 115px;
+  padding: .75rem 1rem;
+  bottom: 5rem;
+  right: 3rem;
+  cursor: pointer;
 }
 
 .header {
@@ -28,10 +40,9 @@
 }
 
 .header p {
-  background-color: #ffc3a3;
-  color: white;
   padding: .25rem 1rem;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 .header rt {
@@ -52,11 +63,6 @@
 }
 
 .input {
-  border: none;
-  width: 250px;
-  height: 40px;
-  padding: 0 1rem;
-  font-size: 1.1rem;
   margin-top: 4rem;
 }
 
@@ -115,7 +121,8 @@
 .smallCard:hover {
   -webkit-box-shadow: rgba(255, 215, 193, 0.5) 0px 12px 28px 0px, rgba(255, 215, 193, 0.5) 0px 2px 4px 0px;
           box-shadow: rgba(255, 215, 193, 0.5) 0px 12px 28px 0px, rgba(255, 215, 193, 0.5) 0px 2px 4px 0px;
-  scale: 1.025;
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
 }
 
 .eng {

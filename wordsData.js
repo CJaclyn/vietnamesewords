@@ -245,5 +245,35 @@ export const words = [
         word: 'vjp',
         meaning: 'để thể hiện sự ngạc nhiên',
         english: 'vip (used when you think something is surprising)'
+    },
+    {
+        id: 'j',
+        word: 'j',
+        meaning: 'gì',
+        english: 'what, anything'
+    },
+    {
+        id: 'bia-dia-bue-due',
+        word: 'bia đia, buê đuê',
+        meaning: 'pê-đê/bê-đê',
+        english: 'cute way to say gay'
+    },
+    {
+        id: 'fishu',
+        word: 'fishu',
+        meaning: 'cáu (fish/cá + u)',
+        english: 'expression of irritation, frustration'
+    },
+    {
+        id: 'z',
+        word: 'z',
+        meaning: 'vậy',
+        english: 'can mean several things depending on the context (e.g. what, so, why, lets)'
+    },
+    {
+        id: 'j-z-tr',
+        word: 'j z tr',
+        meaning: 'gì vậy trời',
+        english: 'what the heck?'
     }
 ]

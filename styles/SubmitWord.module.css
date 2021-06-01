@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
+.formElements {
+  border: none;
+  background: #eeeeee;
+  width: 100%;
+}
+
+.inputDescription {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+  color: #5a5a5a;
+}
+/*# sourceMappingURL=SubmitWord.module.css.map */

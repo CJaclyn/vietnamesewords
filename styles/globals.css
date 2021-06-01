@@ -22,9 +22,36 @@ h2 {
   font-size: 1.5rem;
 }
 
-p {
+p, label {
   font-size: 1.1rem;
   line-height: 1.5;
+}
+
+form {
+  width: 300px;
+  text-align: center;
+}
+
+form input, form textarea {
+  margin-bottom: 2rem;
+}
+
+input, textarea, button {
+  border: none;
+  font-size: 1.1rem;
+  font-family: "Nunito", sans-serif;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  padding: 0 1rem;
+}
+
+button {
+  padding: .75rem 2rem;
+  cursor: pointer;
+  background: #ffd7c1;
 }
 
 nav {
@@ -55,9 +82,22 @@ footer {
   height: 100px;
   padding: 5rem;
   background: #ffc3a3;
+  text-align: center;
 }
 
 footer p {
   margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+  form {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  form {
+    width: 500px;
+  }
 }
 /*# sourceMappingURL=globals.css.map */
