@@ -43,16 +43,16 @@ export default function Home() {
                 required />
                 <label htmlFor="meaning">Meaning</label>
                 <p className={ styles.inputDescription }>
-                    What's the meaning of the word in Vietnamese and English?
+                    What's the meaning of the word in Vietnamese and English? Leave this blank
+                    if you don't know.
                 </p>
                 <textarea 
                 name="meaning" 
                 id="meaning" 
                 cols="30" 
                 rows="8" 
-                className={`${ utilStyles.borderRadius } ${ styles.formElements }`} 
-                required />
-                <button className={ utilStyles.borderRadius }>Submit</button>
+                className={`${ utilStyles.borderRadius } ${ styles.formElements }`} />
+                <button className={`${ utilStyles.button } ${ utilStyles.borderRadius }`}>Submit</button>
             </form>
         </main>
         <Footer />

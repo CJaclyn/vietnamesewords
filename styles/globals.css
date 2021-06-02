@@ -48,12 +48,6 @@ input {
   padding: 0 1rem;
 }
 
-button {
-  padding: .75rem 2rem;
-  cursor: pointer;
-  background: #ffd7c1;
-}
-
 nav {
   background-color: #ffd7c1;
   padding: 1.5rem 3rem;

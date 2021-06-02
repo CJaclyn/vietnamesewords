@@ -82,8 +82,10 @@
   text-overflow: ellipsis;
 }
 
-.centered {
-  text-align: center;
+.button {
+  padding: .75rem 2rem;
+  cursor: pointer;
+  background: #ffd7c1;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Nav from '../Nav'
 import Footer from '../Footer'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/utils.module.css'
 import React, { useState } from 'react'
@@ -20,9 +19,10 @@ export default function Home () {
   }
 
   if (inputs.length > 0) {
-      wordsData = wordsData.filter((i) => {
-          return i.word.toLowerCase().match(inputs)
-      })
+    wordsData = wordsData.filter(
+      (w) => {
+      return w.word.toLowerCase().match(inputs)
+    })
   }
 
   return (
