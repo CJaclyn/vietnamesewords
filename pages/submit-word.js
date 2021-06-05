@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import styles from '../styles/SubmitWord.module.css'
 import emailjs from 'emailjs-com';
 
-export default function Home() {
+export default function Home () {
     function sendEmail(e) {
         e.preventDefault();
 

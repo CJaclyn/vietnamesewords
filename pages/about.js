@@ -4,7 +4,7 @@ import Footer from '../Footer'
 import utilStyles from '../styles/utils.module.css'
 import styles from '../styles/About.module.css'
 
-export default function About() {
+export default function About () {
     return (
         <>
         <Head>

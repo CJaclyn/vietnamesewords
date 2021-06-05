@@ -14,13 +14,14 @@
 
 .scrollupButton {
   position: fixed;
-  background: #ffd7c1;
+  background: #ffe96f;
   border: none;
   width: 115px;
   padding: .75rem 1rem;
   bottom: 5rem;
   right: 3rem;
   cursor: pointer;
+  z-index: 99999;
 }
 
 .header {
@@ -34,7 +35,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffd7c1;
   width: 100%;
   padding: 2rem 1rem 4rem 1rem;
 }
@@ -63,7 +63,8 @@
 }
 
 .input {
-  margin-top: 4rem;
+  margin-top: 1rem;
+  background: #ffe96f;
 }
 
 .grid {
@@ -100,7 +101,7 @@
 .smallCard h2:after {
   content: '';
   position: absolute;
-  background: #ffd7c1;
+  background: #ffe96f;
   border-radius: 5px;
   min-width: 50px;
   width: 100%;
@@ -119,8 +120,8 @@
 }
 
 .smallCard:hover {
-  -webkit-box-shadow: rgba(255, 215, 193, 0.5) 0px 12px 28px 0px, rgba(255, 215, 193, 0.5) 0px 2px 4px 0px;
-          box-shadow: rgba(255, 215, 193, 0.5) 0px 12px 28px 0px, rgba(255, 215, 193, 0.5) 0px 2px 4px 0px;
+  -webkit-box-shadow: rgba(255, 233, 111, 0.5) 0px 12px 28px 0px, rgba(255, 233, 111, 0.5) 0px 2px 4px 0px;
+          box-shadow: rgba(255, 233, 111, 0.5) 0px 12px 28px 0px, rgba(255, 233, 111, 0.5) 0px 2px 4px 0px;
   -webkit-transform: scale(1.025);
           transform: scale(1.025);
 }

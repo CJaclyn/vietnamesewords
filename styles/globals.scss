@@ -50,20 +50,35 @@ input {
 }
 
 nav {
-    background-color: $primaryColor;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 
     a {
         margin: 0 .5rem;
-
-        &:last-of-type {
-            margin-right: 0rem;
-        }
+        border-radius: 4px;
+        padding: .5rem 1rem;
     }
 }
+
+.nav-right {
+  margin-top: 1rem;
+
+  a {
+    transition: ease-in-out .25s;
+
+    &:last-of-type {
+      margin-right: 0rem;
+    }
+
+    &:hover {
+      background: $primaryColor;
+    }
+  }
+}
+
 
 footer {
     width: 100%;
@@ -80,6 +95,17 @@ footer {
 @media screen and (min-width: 500px) {
   form {
     width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 1.5rem 3rem;
+    flex-direction: row;
+  }
+
+  .nav-right {
+    margin-top: 0;
   }
 }
 

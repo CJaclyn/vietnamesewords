@@ -3,7 +3,7 @@ import { words } from '../wordsData'
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/utils.module.css'
 
-function shuffleArray(array) {
+function shuffleArray (array) {
     let i = array.length - 1;
     for (; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));

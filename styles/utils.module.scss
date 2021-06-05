@@ -75,6 +75,10 @@
     background: $primaryColor;
 }
 
+.centered {
+    text-align: center;
+}
+
 @media only screen and (max-width: 1024px) {
     .flexboxRowResponsive {
         flex-direction: column;
