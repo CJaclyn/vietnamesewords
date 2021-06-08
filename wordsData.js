@@ -275,5 +275,11 @@ export const words = [
         word: 'j z tr',
         meaning: 'gì vậy trời',
         english: 'what the heck?'
+    },
+    {
+        id: 'vs',
+        word: 'vs',
+        meaning: 'với',
+        english: 'with, and'
     }
 ]
