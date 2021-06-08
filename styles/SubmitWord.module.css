@@ -11,4 +11,10 @@
   font-size: .9rem;
   color: #5a5a5a;
 }
+
+.error {
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  color: red;
+}
 /*# sourceMappingURL=SubmitWord.module.css.map */
