@@ -30,7 +30,7 @@ export default function Home () {
     <div className={ styles.container }>
       <Head>
         <title>Vietnamese Words</title>
-        <meta name="description" content="The definitions of Vietnamese words, abbreviations, slangs, texting and messaging language" />
+        <meta name="description" content="The definitions of Vietnamese words, expressions, abbreviations, slangs, texting and messaging language" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -39,12 +39,10 @@ export default function Home () {
       <main className={`${ styles.main } ${ utilStyles.main }`}>
         <ScrollUp />
         <header className={ styles.header } id="header">
-        <h1 className={`${ styles.title } ${ utilStyles.h1L }`}>
-          <ruby>詞語越南<rt>Từ Ngữ Việt Nam</rt></ruby><br></br>Vietnamese Words 
-        </h1>
+        <h1 className={`${ styles.title } ${ utilStyles.h1L }`}>Vietnamese Words</h1>
         
         <p className={ styles.description }>
-          Vietnamese abbreviations, slangs, social media &amp; messaging language 
+          Vietnamese abbreviations, expressions, slangs, social media &amp; messaging language 
         </p>
 
           <input 
