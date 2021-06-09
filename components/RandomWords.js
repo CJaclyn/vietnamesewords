@@ -23,7 +23,7 @@ export default function RandomWords() {
             <Link key={ index } href={`/word/${ word.id }`}>
                 <a className={`${ utilStyles.card } ${ styles.smallCard } ${ utilStyles.borderRadius }`}>
                     <h2>{ word.word }</h2>
-                    <p>{ word.word } is { word.meaning }</p>
+                    <p>{ word.word } is { word.meaning.substring(0, 30) }</p>
                     <p className={`${ utilStyles.overflow } ${styles.eng}`}>
                         Eng: { word.english }
                     </p>
