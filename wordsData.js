@@ -281,5 +281,23 @@ export const words = [
         word: 'vs',
         meaning: 'với',
         english: 'with, and'
+    },
+    {
+        id: 'bun',
+        word: 'bùn',
+        meaning: 'buồn',
+        english: 'sad'
+    },
+    {
+        id: 'hp',
+        word: 'hp',
+        meaning: 'hạnh phúc',
+        english: 'happy'
+    },
+    {
+        id: 'xin-lui',
+        word: 'xin lũi',
+        meaning: 'xin lỗi',
+        english: 'sorry, excuse me'
     }
 ]
