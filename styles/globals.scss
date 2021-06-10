@@ -55,6 +55,7 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid $fontColor 1px;
 
     a {
         margin: 0 .5rem;

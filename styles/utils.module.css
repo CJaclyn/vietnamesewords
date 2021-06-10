@@ -70,11 +70,8 @@
 }
 
 .main {
-  padding-bottom: 8rem;
-}
-
-.paddingTop {
   padding-top: 2rem;
+  padding-bottom: 8rem;
 }
 
 .overflow {

@@ -52,7 +52,7 @@ export default function SubmitWord () {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Nav />
-        <main className={`${ utilStyles.paddingTop } ${ utilStyles.main } ${ utilStyles.flexboxColumn }`}>
+        <main className={`${ utilStyles.main } ${ utilStyles.flexboxColumn }`}>
             <h1 className={ utilStyles.centered }>Submit a Vietnamese Word or Expression</h1>
             <form className={ utilStyles.flexboxColumn } onSubmit={ handleSubmit }>
                 <label htmlFor="word">Word or Expression</label>

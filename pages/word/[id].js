@@ -13,7 +13,7 @@ export default function Word ({ word }) {
         <title>What is { word.word } in Vietnamese?</title>
       </Head>
       <Nav />
-      <main className={`${utilStyles.autoHeight} ${ utilStyles.flexboxColumn } ${ utilStyles.main } ${ utilStyles.paddingTop }`}>
+      <main className={`${utilStyles.autoHeight} ${ utilStyles.flexboxColumn } ${ utilStyles.main }`}>
         <article className={`${ utilStyles.card } ${ utilStyles.borderRadius } ${ styles.largeCard }`}>
           <h1 className={ utilStyles.h1M }> 
             What is 

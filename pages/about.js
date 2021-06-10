@@ -13,7 +13,7 @@ export default function About () {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Nav />
-        <main className={`${ utilStyles.paddingTop } ${ utilStyles.flexboxColumn } ${ utilStyles.main }`}>
+        <main className={`${ utilStyles.flexboxColumn } ${ utilStyles.main }`}>
             <div className={`${ styles.aboutContainer }`}>
                 <h1>About Vietnamese Words</h1>
                 <p>
