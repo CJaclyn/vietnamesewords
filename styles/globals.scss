@@ -55,8 +55,8 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid $fontColor 1px;
-
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    
     a {
         margin: 0 .5rem;
         border-radius: 4px;
