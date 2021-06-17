@@ -299,5 +299,11 @@ export const words = [
         word: 'xin lũi',
         meaning: 'xin lỗi',
         english: 'sorry, excuse me'
-    }
+    },
+    {
+        id: 'thg',
+        word: 'thg',
+        meaning: 'thắng',
+        english: 'win'
+    },
 ]
