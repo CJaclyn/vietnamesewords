@@ -63,8 +63,8 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(155, 155, 155, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(155, 155, 155, 0.2);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(123, 123, 123, 0.16);
+          box-shadow: 0 2px 5px 0 rgba(123, 123, 123, 0.16);
 }
 
 nav a {
