@@ -311,4 +311,5 @@ export const words = [
         word: 'dthw',
         meaning: 'dễ thương quá',
         english: 'so cute'
+    },
 ]
