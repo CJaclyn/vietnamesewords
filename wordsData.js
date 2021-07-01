@@ -306,4 +306,9 @@ export const words = [
         meaning: 'thắng',
         english: 'win'
     },
+    {
+        id: 'dthw',
+        word: 'dthw',
+        meaning: 'dễ thương quá',
+        english: 'so cute'
 ]
