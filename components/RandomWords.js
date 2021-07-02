@@ -24,8 +24,8 @@ export default function RandomWords() {
                 <a className={`${ utilStyles.card } ${ styles.smallCard } ${ utilStyles.borderRadius }`}>
                     <h2>{ word.word }</h2>
                     <p>{ word.word } is { word.meaning.substring(0, 30) }</p>
-                    <p className={`${ utilStyles.overflow } ${styles.eng}`}>
-                        Eng: { word.english }
+                    <p className={`${ utilStyles.overflow } ${ styles.eng }`}>
+                        Eng: { word.english.substring(0, 25) }
                     </p>
                 </a>
             </Link>

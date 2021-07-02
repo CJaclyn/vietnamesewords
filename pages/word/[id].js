@@ -11,6 +11,7 @@ export default function Word ({ word }) {
       <>
       <Head>
         <title>What is { word.word } in Vietnamese?</title>
+        <meta name="description" content={`What is ${ word.word } in Vietnamese and English?`} />
       </Head>
       <Nav />
       <main className={`${utilStyles.autoHeight} ${ utilStyles.flexboxColumn } ${ utilStyles.main }`}>
