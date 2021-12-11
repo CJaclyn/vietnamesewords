@@ -41,7 +41,9 @@ export default function Word ({ word }) {
   }  
 
 export async function getStaticPaths() {
-  const paths = words.map(word => ({
+  const paths = words
+  .sort(({id: a}, {id: b}) => a - b)
+  .map(word => ({
     params: { id: word.id },
   }))
   
