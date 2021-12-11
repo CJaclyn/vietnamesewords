@@ -16,7 +16,17 @@ export default function AllWords (props) {
               <a className={`${ utilStyles.borderRadius } ${ utilStyles.button }`}>Submit a word</a>
             </Link>
           </div>
-        : wordsData.map((word, index) => (
+        : wordsData
+        .sort(({ id: a }, { id: b }) => {
+          if (a > b) {
+            return 1
+          } else if (a < b) {
+            return -1
+          } else {
+            return 0
+          }
+        })
+        .map((word, index) => (
           <Link key={ index } href={`/word/${ word.id }`}>
             <a className={`${ utilStyles.card } ${ styles.smallCard } ${ utilStyles.borderRadius }`}>
               <h2>{ word.word }</h2>
