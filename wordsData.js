@@ -312,4 +312,22 @@ export const words = [
         meaning: 'dễ thương quá',
         english: 'so cute'
     },
+    {
+        id: 'dz',
+        word: 'đzai',
+        meaning: 'đẹp trai',
+        english: 'handsome'
+    },
+    {
+        id: 'cdm',
+        word: 'cđm',
+        meaning: 'cộng đồng mạng',
+        english: 'netizen, online community'
+    },
+    {
+        id: 'qđ',
+        word: 'qđ',
+        meaning: 'quyết định',
+        english: 'to decide, decision'
+    }
 ]
