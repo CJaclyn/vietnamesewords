@@ -41,7 +41,7 @@ export default function Word ({ word }) {
   }  
 
 export async function getStaticPaths() {
-  const paths = words.reverse().map(word => ({
+  const paths = words.map(word => ({
     params: { id: word.id },
   }))
   
