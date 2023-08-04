@@ -93,7 +93,7 @@ export const words = [
         id: 'huhu',
         word: 'huhu',
         meaning: 'từ tượng thanh mô phỏng tiếng khóc',
-        english: 'onomatopoeia of crying (boo hoo)'
+        english: 'an onomatopoeia of crying (boo hoo)'
     },
     {
         id: 'mn-mng',
@@ -177,13 +177,13 @@ export const words = [
         id: 'haiz',
         word: 'haiz, haizz',
         meaning: 'từ tượng thanh mô phỏng tiếng thở dài',
-        english: 'onomatopoeia of sighing'
+        english: 'an onomatopoeia of sighing'
     },
     {
         id: 'ak',
         word: 'ak',
         meaning: 'à, ạ',
-        english: 'question particle, polite particle'
+        english: 'a question particle, polite particle'
     },
     {
         id: 'ny',
@@ -214,7 +214,6 @@ export const words = [
         word: 'nóng bỏng',
         meaning: 'hot, khiêu gợi',
         english: 'hot, sexy',
-        wordType: 'slang' 
     },
     {
         id: 'nhiu',
@@ -232,13 +231,13 @@ export const words = [
         id: 'hic',
         word: 'hic',
         meaning: 'từ tượng thanh mô phỏng tiếng khóc/khóc nức nở',
-        english: 'onomatopoeia of crying/sobbing'
+        english: 'an onomatopoeia of crying/sobbing'
     },
     {
         id: 'mlem-mlem',
         word: 'mlem mlem',
         meaning: 'từ tượng thanh mô phỏng tiếng chó, mèo đang liếm (dùng để chỉ thèm một món ăn hay người đẹp)',
-        english: 'onomatopoeia of a dog, cat licking (used when you think something or someone is tasty or attractive)'
+        english: 'an onomatopoeia of a dog, cat licking (used when you think something or someone is tasty or attractive)'
     },
     {
         id: 'vjp',
@@ -256,13 +255,13 @@ export const words = [
         id: 'bia-dia-bue-due',
         word: 'bia đia, buê đuê',
         meaning: 'pê-đê/bê-đê',
-        english: 'cute way to say gay'
+        english: 'a cute way to say gay'
     },
     {
         id: 'fishu',
         word: 'fishu',
         meaning: 'cáu (fish/cá + u)',
-        english: 'expression of irritation, frustration'
+        english: 'an expression of irritation, frustration'
     },
     {
         id: 'z',
@@ -329,5 +328,35 @@ export const words = [
         word: 'qđ',
         meaning: 'quyết định',
         english: 'to decide, decision'
+    },
+    {
+        id: 'kkk-kakaka',
+        word: 'kkk, kakaka',
+        meaning: 'âm thanh tiếng cười',
+        english: 'an onomatopoeia for laughing'
+    },
+    {
+        id: 'et-o-et',
+        word: 'ét o ét',
+        meaning: 'dùng cho những tình huống quá hài hước',
+        english: 'SOS (used for really funny situations)'
+    },
+    {
+        id: 'trap-boy',
+        word: 'trap boy',
+        meaning: 'chàng trai thích chơi đùa, lừa dối tình cảm của người khác',
+        english: 'f*ck boy'
+    },
+    {
+        id: 'u-la-troi',
+        word: 'u là trời',
+        meaning: 'trời ơi',
+        english: 'omg'
+    },
+    {
+        id: 'o-de',
+        word: 'ô dề',
+        meaning: 'dùng khi thấy một hành động bị làm quá, làm lố, không giống ai',
+        english: 'overdo (used when someone is "doing too much" in attempts to be unique)'
     }
 ]

@@ -12,11 +12,13 @@
     "browserslist": "^4.16.6",
     "color-convert": "^2.0.1",
     "emailjs-com": "^2.6.4",
+    "file-loader": "^6.2.0",
     "next": "^12.3.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sass": "^1.32.12",
     "save": "^2.4.0",
-    "supports-color": "^9.2.1"
+    "supports-color": "^9.2.1",
+    "use-sound": "^4.0.1"
   }
 }

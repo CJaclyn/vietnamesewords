@@ -1,44 +1,19 @@
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-import utilStyles from '../styles/utils.module.css'
+import Link from 'next/link';
+import WordCard from './WordCard';
+import { getColor } from './color';
 
-export default function AllWords (props) {
-  let wordsData = props.words
+export default function AllWords(props) {
+  const wordsData = props.words;
 
   return (
-    <>
-    <div className={ utilStyles.flexboxColumn }>
-      <div className={ styles.grid }>
-        {wordsData.length === 0 
-        ? <div className={ utilStyles.flexboxColumn }>
-            <p className={ styles.noResult }>No results...</p> 
-            <Link href={`/submit-word`}>
-              <a className={`${ utilStyles.borderRadius } ${ utilStyles.button }`}>Submit a word</a>
-            </Link>
-          </div>
-        : wordsData
-        .sort(({ id: a }, { id: b }) => {
-          if (a > b) {
-            return 1
-          } else if (a < b) {
-            return -1
-          } else {
-            return 0
-          }
-        })
-        .map((word, index) => (
-          <Link key={ index } href={`/word/${ word.id }`}>
-            <a className={`${ utilStyles.card } ${ styles.smallCard } ${ utilStyles.borderRadius }`}>
-              <h2>{ word.word }</h2>
-              <p className={ utilStyles.overflow }>{ word.word } is { word.meaning.substring(0, 30) }</p>
-              <p className={`${ utilStyles.overflow } ${styles.eng}`}>
-                Eng: { word.english.substring(0, 25) }
-              </p>
-            </a>
-          </Link>
-        ))}
-      </div>
+    <div className='word-cards-container'>
+      {wordsData.length === 0 ? (
+        <p>No results...</p>
+      ) : (
+        wordsData.map(({ word, id }) => (
+          <WordCard word={word} id={id} color={getColor()} key={id} />
+        ))
+      )}
     </div>
-    </>
-  )
+  );
 }
