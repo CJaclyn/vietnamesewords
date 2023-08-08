@@ -358,5 +358,11 @@ export const words = [
         word: 'ô dề',
         meaning: 'dùng khi thấy một hành động bị làm quá, làm lố, không giống ai',
         english: 'overdo (used when someone is "doing too much" in attempts to be unique)'
+    },
+    {
+        id: 'bjo',
+        word: 'bjo',
+        meaning: 'bây giờ',
+        english: 'now'
     }
 ]
