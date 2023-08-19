@@ -4,6 +4,7 @@ import { words } from '../wordsData';
 import Nav from '../components/Nav';
 import Search from '../components/Search';
 import { useState } from 'react';
+import ScrollUp from '../components/ScrollUp';
 
 export default function Home() {
   const [input, setInput] = useState('');
@@ -40,6 +41,7 @@ export default function Home() {
       <main>
         <Search value={inputs} handleChange={handleChange} />
         <AllWords words={wordsData} />
+        <ScrollUp />
       </main>
     </div>
   );

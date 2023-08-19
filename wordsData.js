@@ -364,5 +364,17 @@ export const words = [
         word: 'bjo',
         meaning: 'bây giờ',
         english: 'now'
+    },
+    {
+        id: 'cu-ca-na',
+        word: 'xu cà na',
+        meaning: 'xui xẻo',
+        english: 'unlucky'
+    },
+    {
+        id: 'cty',
+        word: 'cty',
+        meaning: 'công ty',
+        english: 'company'
     }
 ]
